@@ -1,0 +1,11 @@
+:root {
+    /* ---------------- Primary color --------------------------- */
+   --color__Violet: hsl(257, 40%, 49%);
+   --Soft__Magenta: hsl(300, 69%, 71%);
+
+   /* ------------------ Topology --------------------------------- */
+   --Weights__600: 600;
+   --Weights__400: 400;
+   --font__family__Open: 'Open Sans', sans-serif;    
+   --font__family__Poppins: 'Poppins', sans-serif;
+}
