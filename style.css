@@ -8,4 +8,49 @@
    --Weights__400: 400;
    --font__family__Open: 'Open Sans', sans-serif;    
    --font__family__Poppins: 'Poppins', sans-serif;
+
+   html{
+    box-sizing: border-box;
+    font-size: 62.5% ;
+    
+   }
+
+   h1,
+   h2,
+   p{
+    margin-top: 0;
+    line-height: 1.5;
+   }
+
+   body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    
+   }
+
+   main{
+    background-color: var(--color__Violet);
+    margin-top: 175px auto;
+   }
+
+   .background{
+
+   }
+   .landing__heading{
+
+   }
+   .landing__para{
+
+   }
+   .button{
+
+   }
+   .footer{
+
+   }
+
+
+
 }
