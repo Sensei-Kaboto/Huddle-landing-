@@ -126,6 +126,42 @@
       transition: .5s;
 
    }
+
+   @media(min-width:40.7em){
+
+      
+      main{
+         display: grid;
+         width:1440px;
+         grid-template-rows: 1fr;
+         margin: 175px auto;
+         height: 800px ;
+      
+      }
+    
+      section img{
+         width: 660px;
+         margin:80px;
+      }
+      .section__one{
+         /* position: relative; */
+      }
+     
+      header {
+         position: absolute;
+      }
+     
+
+      .text{
+
+         grid-column-start:3;
+   
+      }
+
+      .social {
+         grid-column-start: 3;
+      }
+   }
    
 
 
