@@ -207,11 +207,15 @@
          font-size: 18px;
          font-family: var(--font__family__Poppins);
          font-weight: 400;
+         position: relative;
+         z-index: 2;
       }
 
       .social{
          text-align: right;
          margin: 0px 50px;
+         position: relative;
+         z-index: 2;
 
       }
 
@@ -226,6 +230,7 @@
      
      
    }
+
 
    
  
