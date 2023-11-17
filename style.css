@@ -59,6 +59,10 @@
    
    }
 
+   .background img{
+      width: 120px;
+   }
+
    .text{
       margin: 50px 40px;
       margin-bottom: 0;
@@ -114,7 +118,7 @@
 
    .social svg:hover{
       fill:var(--Soft__Magenta);
-      transition: .5s;
+      transition: fill 0.5s ease; /* Include the transition property */
      
      
    }
@@ -123,7 +127,7 @@
       color: #fff;
       background-color: var(--Soft__Magenta);
       box-shadow: #000;
-      transition: .5s;
+      transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease; 
 
    }
 
@@ -144,23 +148,87 @@
          margin:80px;
       }
       .section__one{
-         /* position: relative; */
+         position: relative;
+         padding-top: 90px;
       }
      
       header {
          position: absolute;
+         margin-left: 35px;
+       
+      }
+
+      .background{
+         margin: 60px;
+
+      }
+   
+      .background img{
+         width: 250px;;
       }
      
 
       .text{
 
          grid-column-start:3;
+         margin-top: 235px;
+         margin-left: 0px;
+         margin-right: 65px;
    
       }
 
       .social {
          grid-column-start: 3;
       }
+
+      .landing__heading{
+         font-weight: 600;
+         font-size: 4rem;
+         line-height: 50px;
+         text-align: left  ;
+
+      }
+
+      .landing__para{
+         font-weight: 400;
+         font-size: 1.8rem;
+         font-family: var(--font__family__Open);
+         text-align: left;
+         margin-top: 35px;
+         margin-bottom: 30px;
+         line-height: 28px;
+      }
+
+      button{
+         height: 56px;
+         border-radius: 5rem;
+         box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+         margin : 0px;
+         font-size: 18px;
+         font-family: var(--font__family__Poppins);
+         font-weight: 400;
+      }
+
+      .social{
+         text-align: right;
+         margin: 0px 50px;
+
+      }
+
+      .social svg{
+         width: 40px;
+         height: 40px;
+      }
+
+       .social svg:hover{
+      fill:var(--Soft__Magenta);
+      transition: fill 0.5s ease; /* Include the transition property */
+     
+     
+   }
+
+   
+ 
    }
    
 
